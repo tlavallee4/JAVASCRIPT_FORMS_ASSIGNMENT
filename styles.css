@@ -1,0 +1,72 @@
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: cornflowerblue;
+    color:cornflowerblue;
+}
+
+/* Form styling */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 15px;
+}
+
+/* Message box */
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* radio & checkbox styling */
+checkbox-container,
+times-study {
+    margin-bottom: 15px;
+    text-align:left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Date */
+input[type="date"] {
+    color: grey;
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit Button */
+button[type="submit"] {
+    padding: 12px;
+    background-color: #4485D9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+button[type="submit"]:hover {
+    background-color: #5e9edd;
+}
